@@ -1,9 +1,9 @@
-
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
-import HelloWorld from './component/HelloWord';
+import { Router } from 'react-router';
+import routes from './routers';
 
-import './styles/bootstrap.min.css';
-
-let root = document.getElementById('app');
-ReactDOM.render(<Main />, root);
+ReactDOM.render(
+  <Router>{routes}</Router>,
+  document.getElementById('app')
+)
