@@ -6,6 +6,9 @@ var webpack = require('webpack');
 var srcPath = path.join(__dirname, '/app');
 var publicPath = path.join(__dirname, '/public');
 
+// Add needed plugins here
+var BowerWebpackPlugin = require('bower-webpack-plugin');
+
 module.exports = {
   devtool: '#source-map',
 
@@ -56,6 +59,9 @@ module.exports = {
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     // 往每个文件头添加公共信息
-    new webpack.BannerPlugin('created by guoyongfeng')
+    new webpack.BannerPlugin('created by guoyongfeng'),
+    new BowerWebpackPlugin({
+      searchResolveModulesDirectories: false
+    })
   ]
 };

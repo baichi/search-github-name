@@ -55,7 +55,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "eb457ec6b6b8c92ebb70"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "72fe2d6724374da34b79"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -25369,7 +25369,7 @@
 	            _react2.default.createElement(
 	              'button',
 	              { type: 'submit', className: 'btn btn-block btn-primary' },
-	              'Search Github'
+	              '搜索 Github'
 	            )
 	          )
 	        )
@@ -25407,7 +25407,7 @@
 	  return _react2.default.createElement(
 	    "h2",
 	    { className: "text-center" },
-	    "Search By Github Username Above"
+	    "通过 Github 用户名搜索代码资料"
 	  );
 	}
 
@@ -25574,7 +25574,7 @@
 	    _react2.default.createElement(
 	      "h3",
 	      null,
-	      " User Repos "
+	      " 用户的 Git 仓库 "
 	    ),
 	    _react2.default.createElement(
 	      "ul",
@@ -25742,9 +25742,9 @@
 	    _react2.default.createElement(
 	      'h3',
 	      null,
-	      ' Notes for ',
+	      ' 对 ',
 	      username,
-	      ' '
+	      ' 说： '
 	    ),
 	    _react2.default.createElement(_AddNote2.default, { username: username, addNote: addNote }),
 	    _react2.default.createElement(_NotesList2.default, { notes: notes })
