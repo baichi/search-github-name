@@ -1,6 +1,7 @@
-# 通过搜索 `Github` 用户名来查找资料
 
-> 基于 `react + webpack` 进行简单实用的项目开发实例
+# React项目开发示例
+
+> 基于React+webpack实现通过搜索github的用户名返回用户仓库及点评的功能
 
 ## 技术栈
 - [x] [Atom](https://atom.io/)
